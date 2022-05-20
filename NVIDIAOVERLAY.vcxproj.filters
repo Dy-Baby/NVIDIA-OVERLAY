@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\vend">
+      <UniqueIdentifier>{88b5e607-bde2-4b7d-b5b8-3b574d2968ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vend\DirectX9">
+      <UniqueIdentifier>{ec836c15-63cf-4087-b8be-1aee9b8b7ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vend\ImGui">
+      <UniqueIdentifier>{12e7430c-dec9-4a86-ba7e-d0c9af4741fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vend\DirectX9\Include">
+      <UniqueIdentifier>{8ff4b9a0-dcc0-470e-b590-2346bc4a8753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vend\DirectX9\Lib">
+      <UniqueIdentifier>{f92fed3b-82b7-4fdb-9506-62e4050bfad2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NVIDIAOVERLAY.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vend\ImGui\imgui.cpp">
+      <Filter>Source Files\vend\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vend\ImGui\imgui_demo.cpp">
+      <Filter>Source Files\vend\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vend\ImGui\imgui_draw.cpp">
+      <Filter>Source Files\vend\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vend\ImGui\imgui_impl_dx9.cpp">
+      <Filter>Source Files\vend\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vend\ImGui\imgui_impl_win32.cpp">
+      <Filter>Source Files\vend\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vend\ImGui\imgui_widgets.cpp">
+      <Filter>Source Files\vend\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="overlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\ImGui\imconfig.h">
+      <Filter>Source Files\vend\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\ImGui\imgui.h">
+      <Filter>Source Files\vend\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\ImGui\imgui_impl_dx9.h">
+      <Filter>Source Files\vend\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\ImGui\imgui_impl_win32.h">
+      <Filter>Source Files\vend\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\ImGui\imgui_internal.h">
+      <Filter>Source Files\vend\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\ImGui\imstb_rectpack.h">
+      <Filter>Source Files\vend\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\ImGui\imstb_textedit.h">
+      <Filter>Source Files\vend\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\ImGui\imstb_truetype.h">
+      <Filter>Source Files\vend\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\audiodefs.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\comdecl.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D2D1.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D2D1Helper.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D2DBaseTypes.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D2Derr.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\d3d9.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\d3d9caps.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\d3d9types.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3D10.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3D10_1.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3D10_1shader.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3D10effect.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\d3d10misc.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\d3d10sdklayers.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3D10shader.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3D11.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3D11SDKLayers.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3D11Shader.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3Dcommon.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3Dcompiler.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3DCSX.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\d3dx9.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\d3dx9anim.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\d3dx9core.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\d3dx9effect.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\d3dx9math.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\d3dx9mesh.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\d3dx9shader.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\d3dx9shape.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\d3dx9tex.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\d3dx9xof.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3DX10.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\d3dx10async.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3DX10core.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3DX10math.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3DX10mesh.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3DX10tex.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3DX11.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3DX11async.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3DX11core.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\D3DX11tex.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\Dcommon.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\detours.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\dinput.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\dinputd.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\dsconf.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\dsetup.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\dsound.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\DWrite.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\dxdiag.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\DxErr.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\dxfile.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\DXGI.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\DXGIFormat.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\DXGIType.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\dxsdkver.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\gameux.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\PIXPlugin.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\rmxfguid.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\rmxftmpl.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\rpcsal.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\X3DAudio.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\xact3.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\xact3d3.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\xact3wb.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\XAPO.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\XAPOBase.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\XAPOFX.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\XAudio2.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\XAudio2fx.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\XDSP.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\XInput.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\xma2defs.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="vend\DirectX9\Include\xnamath.h">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vend\DirectX9\Include\D3DX_DXGIFormatConvert.inl">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </None>
+    <None Include="vend\DirectX9\Include\d3dx9math.inl">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </None>
+    <None Include="vend\DirectX9\Include\D3DX10math.inl">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </None>
+    <None Include="vend\DirectX9\Include\xnamathconvert.inl">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </None>
+    <None Include="vend\DirectX9\Include\xnamathmatrix.inl">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </None>
+    <None Include="vend\DirectX9\Include\xnamathmisc.inl">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </None>
+    <None Include="vend\DirectX9\Include\xnamathvector.inl">
+      <Filter>Source Files\vend\DirectX9\Include</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="vend\DirectX9\Lib\d2d1.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\d3d9.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\d3d10.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\d3d10_1.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\d3d11.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\d3dcompiler.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\D3DCSX.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\D3DCSXd.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\d3dx9.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\d3dx9d.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\d3dx10.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\d3dx10d.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\d3dx11.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\d3dx11d.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\d3dxof.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\dinput8.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\dsound.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\dwrite.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\DxErr.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\dxgi.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\dxguid.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\X3DAudio.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\xapobase.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\xapobased.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\XAPOFX.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+    <Library Include="vend\DirectX9\Lib\XInput.lib">
+      <Filter>Source Files\vend\DirectX9\Lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
